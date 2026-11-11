@@ -1,0 +1,22 @@
+{
+  "feature_columns": [
+    "Sepal_L",
+    "Sepal_W",
+    "Petal_L",
+    "Petal_W"
+  ],
+  "class_names": [
+    "Setosa",
+    "Versicolor",
+    "Virginica"
+  ],
+  "units": "centimeters",
+  "random_state": 42,
+  "hidden_units": [
+    16,
+    8
+  ],
+  "learning_rate": 0.01,
+  "selected_epoch": 38,
+  "tensorflow_version": "2.18.0"
+}
