@@ -1,0 +1,45 @@
+{
+  "data_url": "https://raw.githubusercontent.com/plotly/datasets/master/diabetes.csv",
+  "target": "Outcome",
+  "class_names": [
+    "No diabetes",
+    "Diabetes"
+  ],
+  "base_features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age"
+  ],
+  "engineered_features": [
+    "Pregnancies",
+    "Glucose",
+    "BloodPressure",
+    "SkinThickness",
+    "Insulin",
+    "BMI",
+    "DiabetesPedigreeFunction",
+    "Age",
+    "BMI_squared",
+    "Age_squared",
+    "Glucose_BMI_interaction"
+  ],
+  "selected_configuration": {
+    "name": "Wide / fast",
+    "hidden_units": [
+      64,
+      32
+    ],
+    "learning_rate": 0.003,
+    "batch_size": 32,
+    "dropout_rate": 0.0
+  },
+  "decision_threshold_default": 0.5,
+  "validation_selected_threshold": 0.5499999999999999,
+  "random_state": 42,
+  "tensorflow_version": "2.18.0"
+}
